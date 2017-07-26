@@ -1,0 +1,21 @@
+<head>
+  <meta charset="UTF-8">
+  <title>{% if page.title.size > 0 %}
+    {{ page.title }}
+  {% else %}
+    {{ site.title }}
+  {% endif %}</title>
+
+  {% if page.og_title.size > 0 %}
+  <meta content="{{ page.og_title }}" property="og:title">
+  <meta content="article" property="og:type">
+  <meta content="{{ page.og_description }}" property="og:description">
+  <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+  <meta content="{{ site.url }}/assets/{{ page.og_image }}" property="og:image">
+  {% endif %}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/cayman.css">
+</head>

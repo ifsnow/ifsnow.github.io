@@ -1,0 +1,16 @@
+# Setup
+title:        ifsnow's things
+baseurl:      ""
+paginate:     1
+
+# About/contact
+author:
+  name:       ifsnow
+  url:        https://ifsnow.github.io
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
