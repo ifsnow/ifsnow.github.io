@@ -190,3 +190,30 @@ a:hover { text-decoration: underline; }
 .site-footer-owner { display: block; font-weight: bold; }
 
 .site-footer-credits { color: #819198; }
+
+::-webkit-scrollbar {
+    background: transparent;
+}
+
+::-webkit-scrollbar:vertical {
+    height: 8px;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 8px;
+    border: 2px solid #ffffff;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+figure {
+    margin: 1em 20px;
+}
