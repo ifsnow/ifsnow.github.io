@@ -4,6 +4,8 @@ title:  "Performance booster for the pool of mysql (node.js)"
 og_title : "mysql-pool-booster"
 og_description: "Performance booster for the pool of mysql (node.js)"
 og_image: "ifsnow.png"
+og_image_width: 151
+og_image_height: 151
 date:   2017-07-26 00:00:00
 categories: nodejs
 ---
