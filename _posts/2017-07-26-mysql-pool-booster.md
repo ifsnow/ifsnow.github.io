@@ -6,6 +6,8 @@ og_description: "Performance booster for the pool of mysql (node.js)"
 og_image: "ifsnow_ver2.png"
 og_image_width: 200
 og_image_height: 200
+fb_like: true
+fb_comments: true
 date:   2017-07-26 00:00:00
 categories: nodejs
 ---

@@ -4,10 +4,23 @@
   {% include head.html %}
 
   <body>
+    {% include facebook-init.html %}
+
     {% include page-header.html %}
 
     <section class="main-content">
+      {% if page.fb_like %}
+      <div style="text-align: right">
+        <div class="fb-like" data-href="{{ site.url }}{{ page.url }}" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+      </div>
+      {% endif %}
+
       {{ content }}
+
+      {% if page.fb_comments %}
+        <hr/>
+        <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-colorscheme="dark" data-num-posts="5" data-width="100%"></div>
+      {% endif %}
 
       {% include page-footer.html %}
 
