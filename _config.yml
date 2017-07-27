@@ -11,6 +11,13 @@ author:
 # Gems
 plugins:
   - jekyll-paginate
+  - jekyll-sitemap
+
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
 
 #Others
 markdown: kramdown
+
+safe: false

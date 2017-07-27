@@ -10,6 +10,7 @@ fb_like: true
 fb_comments: true
 date:   2017-07-26 00:00:00
 categories: nodejs
+meta_description: "It easily converts the pool of mysql to more faster and improved version. By applying one line, you can use everything. Please try it once if you're already using the pool of mysql."
 ---
 
 # # mysql-pool-booster
