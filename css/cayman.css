@@ -1,3 +1,15 @@
+.list_title {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  color: #159957;
+  margin-bottom: 5px;
+}
+
+.posts li {
+  margin-bottom: 5px;
+}
+
 .highlight table td { padding: 5px; }
 
 .highlight table pre { margin: 0; }
@@ -128,8 +140,8 @@
 
 body { padding: 0; margin: 0; font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5; color: #606c71; }
 
-a { color: #1e6bb8; text-decoration: none; }
-a:hover { text-decoration: underline; }
+a { color: #1e6bb8; text-decoration: none; border-bottom: 2px solid rgba(30, 107, 184, 0.66); }
+a:hover { text-decoration: none; background-color: #dfefff; }
 
 .btn { display: inline-block; margin-bottom: 1rem; color: rgba(255, 255, 255, 0.7); background-color: rgba(255, 255, 255, 0.08); border-color: rgba(255, 255, 255, 0.2); border-style: solid; border-width: 1px; border-radius: 0.3rem; transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
 .btn:hover { color: rgba(255, 255, 255, 0.8); text-decoration: none; background-color: rgba(255, 255, 255, 0.2); border-color: rgba(255, 255, 255, 0.3); }
@@ -147,7 +159,7 @@ a:hover { text-decoration: underline; }
 .project-name { margin-top: 0; margin-bottom: 0.1rem; }
 @media screen and (min-width: 64em) { .project-name { font-size: 3.25rem; } }
 @media screen and (min-width: 42em) and (max-width: 64em) { .project-name { font-size: 2.25rem; } }
-@media screen and (max-width: 42em) { .project-name { font-size: 1.75rem; } }
+@media screen and (max-width: 42em) { .project-name { font-size: 1.4rem; } }
 
 .project-tagline { margin-bottom: 2rem; font-weight: normal; opacity: 0.7; }
 @media screen and (min-width: 64em) { .project-tagline { font-size: 1.25rem; } }
@@ -193,24 +205,25 @@ a:hover { text-decoration: underline; }
 
 ::-webkit-scrollbar {
     background: transparent;
+    width: 10px;
 }
 
 ::-webkit-scrollbar:vertical {
-    height: 8px;
+    height: 4px;
 }
 
 ::-webkit-scrollbar:horizontal {
-    height: 8px;
+    height: 4px;
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: rgba(0, 0, 0, .4);
-    border-radius: 8px;
+    border-radius: 4px;
     border: 2px solid #ffffff;
 }
 
 ::-webkit-scrollbar-track {
-    border-radius: 8px;
+    border-radius: 4px;
     background-color: #ffffff;
 }
 

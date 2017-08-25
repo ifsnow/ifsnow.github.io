@@ -6,9 +6,25 @@ sitemap: false
 
 <div id="home">
   <h1>Blog Posts</h1>
+  <div class="list_title">
+    Korean
+  </div>
   <ul class="posts">
     {% for post in site.posts %}
-      <!--<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>-->
+      {% unless post.is_english %}
+      <li><a href="{{ site.baseurl }}{{ post.url }}" target="_blank">{{ post.title }}</a></li>
+      {% endunless %}
+    {% endfor %}
+  </ul>
+
+  <div class="list_title">
+    English
+  </div>
+  <ul class="posts">
+    {% for post in site.posts %}
+      {% if post.is_english %}
+      <li><a href="{{ site.baseurl }}{{ post.url }}" target="_blank">{{ post.title }}</a></li>
+      {% endif %}
     {% endfor %}
   </ul>
 </div>

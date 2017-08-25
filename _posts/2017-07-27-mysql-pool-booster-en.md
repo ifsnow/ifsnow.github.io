@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  "Performance booster for the pool of mysql (node.js)"
+is_english: true
 og_title : "mysql-pool-booster"
 og_description: "Performance booster for the pool of mysql (node.js)"
 og_image: "ifsnow_ver2.png"
