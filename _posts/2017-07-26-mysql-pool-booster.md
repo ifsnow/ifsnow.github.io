@@ -13,8 +13,13 @@ categories: nodejs
 meta_description: "It easily converts the pool of mysql to more faster and improved version. By applying one line, you can use everything. Please try it once if you're already using the pool of mysql."
 ---
 
+이 글은 Node.js + mysql 모듈 환경에서 커넥션 풀을 사용하는 분들에게 도움이 될만한 내용입니다.
+
+1. Performance booster for the pool of mysql (node.js)
+2. [개선된 PoolCluster 사용하기](/nodejs/2017/08/29/advanced-poolcluster-of-mysql-pool-booster.html)
+
 # # mysql-pool-booster
-Node.js + mysql 모듈 환경에서 커넥션 풀을 사용하는 분들을 위한 모듈입니다. 단 몇 줄만 추가하면 기본으로 제공되는 것보다 더 좋은 성능과 유용한 옵션의 커넥션 풀을 사용할 수 있게 됩니다.
+단 몇 줄만 추가하면 `mysql` 모듈에서 기본으로 제공되는 것보다 향상된 성능과 유용한 옵션의 커넥션 풀을 사용할 수 있게 해주는 모듈입니다.
 
 # # 만들게 된 이유
 심심할 때마다 mysql 모듈 프로젝트에 기여하곤 했는데 오랜 역사와 많은 사용자를 대상으로 한 프로젝트이기 때문에 조금 큰 변화의 요구([pull request #1779](https://github.com/mysqljs/mysql/pull/1779))엔 조심스럽다는 느낌을 받았습니다. 오픈 소스 프로젝트를 유지하는 분들의 선의와 고충을 이해하고 저라도 그렇게 할 것 같습니다.
