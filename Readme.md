@@ -1,1 +1,1 @@
-  [https://ifsnow.github.com](https://ifsnow.github.com)
+  [https://ifsnow.github.io](https://ifsnow.github.io)

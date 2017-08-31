@@ -14,9 +14,14 @@ categories: nodejs
 meta_description: "It easily converts the pool of mysql to more faster and improved version. By applying one line, you can use everything. Please try it once if you're already using the pool of mysql."
 ---
 
+This is for those who use the connection pool in Node.js + mysql module environment.
+
+1. Performance booster for the pool of mysql (node.js)
+2. [Try the improved PoolCluster](/nodejs/2017/08/30/advanced-poolcluster-of-mysql-pool-booster-en.html)
+
 # # mysql-pool-booster
 
-This is for those who use the connection pool in Node.js + mysql module environment. By adding just a few lines, you can use the connection pool with better performance and useful options than orginal.
+By adding just a few lines, you can use the connection pool with better performance and useful options than orginal.
 
 # # The reason I made
 
